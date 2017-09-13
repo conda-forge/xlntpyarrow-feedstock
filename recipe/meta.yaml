@@ -1,6 +1,6 @@
 {% set name = "xlntpyarrow" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "dc4895e1c4ed1c44f85f02bc2066696550b2577c98ff100ed3f6ef4cd071ed48" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "983bcd3984134b24efca71fcb82a0960679d306ed89ebbfe822ed08dced70f93" %}
 
 package:
   name: {{ name|lower }}
