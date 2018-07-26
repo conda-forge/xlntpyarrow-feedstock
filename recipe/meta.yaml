@@ -12,15 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
   skip: true  # [win and py<35]
 
 requirements:
   build:
-    - python
-    - toolchain
     - cmake
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
     - pyarrow
   run:
     - python
