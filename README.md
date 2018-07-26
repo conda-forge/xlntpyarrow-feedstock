@@ -14,14 +14,16 @@ Summary: C++ XLSX library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xlntpyarrow-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xlntpyarrow-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/xlntpyarrow-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xlntpyarrow-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xlntpyarrow-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xlntpyarrow-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/xlntpyarrow-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/xlntpyarrow-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/xlntpyarrow-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/xlntpyarrow-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/xlntpyarrow-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/xlntpyarrow-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xlntpyarrow/badges/version.svg)](https://anaconda.org/conda-forge/xlntpyarrow)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xlntpyarrow/badges/downloads.svg)](https://anaconda.org/conda-forge/xlntpyarrow)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-xlntpyarrow-green.svg)](https://anaconda.org/conda-forge/xlntpyarrow) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/xlntpyarrow.svg)](https://anaconda.org/conda-forge/xlntpyarrow) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/xlntpyarrow.svg)](https://anaconda.org/conda-forge/xlntpyarrow) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/xlntpyarrow.svg)](https://anaconda.org/conda-forge/xlntpyarrow) |
 
 Installing xlntpyarrow
 ======================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
