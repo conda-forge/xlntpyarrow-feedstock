@@ -18,9 +18,11 @@ build:
 
 requirements:
   build:
-    - python
-    - toolchain
     - cmake
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
     - pyarrow
   run:
     - python
