@@ -1,6 +1,6 @@
 {% set name = "xlntpyarrow" %}
 {% set version = "1.2.0" %}
-{% set sha256 = "6d099e0cf0688692bdc2e53c6e03e998267bc196ffef13804d40340b7922963b" %}
+{% set sha256 = "38196ce9566940dffdd3db8061419a747266509555cc0f696e06fb142e1cf58a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,15 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1000
   skip: true  # [win32]
   skip: true  # [win and py<35]
 
 requirements:
   build:
-    - python
-    - toolchain
     - cmake
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
     - pyarrow
   run:
     - python
