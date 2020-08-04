@@ -1,6 +1,6 @@
 {% set name = "xlntpyarrow" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "6d099e0cf0688692bdc2e53c6e03e998267bc196ffef13804d40340b7922963b" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "be64639011d119dfda7dfc649fd951624277106b708be3e3a761fefd119e4d2c" %}
 
 package:
   name: {{ name|lower }}
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'C++ XLSX library'
+  summary: C++ XLSX library
   dev_url: https://github.com/tfussell/xlnt
 
 extra:
